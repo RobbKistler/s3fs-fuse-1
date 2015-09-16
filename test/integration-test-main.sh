@@ -3,9 +3,6 @@
 set -o xtrace
 set -o errexit
 
-COMMON=integration-test-common.sh
-source $COMMON
-
 # Configuration
 TEST_TEXT="HELLO WORLD"
 TEST_TEXT_FILE=test-s3fs.txt
